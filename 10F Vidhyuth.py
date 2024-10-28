@@ -3,7 +3,7 @@
 
 # In[5]:
 
-
+#21-10-2024
 import matplotlib.pyplot as plt
 #Define the points
 x = [2, 5]
@@ -24,7 +24,7 @@ plt.show()
 
 # In[6]:
 
-
+#21-10-2024
 import statistics
 ages = [20, 35, 32, 40, 70 ,72, 64, 50]
 
@@ -38,6 +38,12 @@ print(f"Mode: {mode}")
 
 # In[ ]:
 
-
-
+#28-10-2024
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+added_list = []
+for i in range(len(list1)):
+    added_list.append(list1[i] +  list2[i])
+    
+print(added_list)
 
