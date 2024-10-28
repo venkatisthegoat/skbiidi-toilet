@@ -47,3 +47,21 @@ for i in range(len(list1)):
     
 print(added_list)
 
+# In[ ]:
+
+#28-10-2024
+import matplotlib.pyplot as plt
+#Define the points
+x = [2, 9, 8, 5, 6]
+y = [5, 10, 3, 7, 18]
+# Create the scatter chart
+plt.scatter(x, y, color="red", marker = 'x')
+# Add titles and labels
+plt.title("Scatter Chart for given points")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+# Set limits for better visibility
+plt.xlim(0, 10)
+plt.ylim(0, 20)
+plt.grid()
+plt.show()
